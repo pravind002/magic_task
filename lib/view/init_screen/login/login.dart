@@ -90,7 +90,7 @@ class _LoginState extends State<Login> {
               Center(
                 child: MaterialButton(
                   height: 55.0,minWidth: Get.width,
-                  color: Colors.black,
+                  color: Colors.green,
                   // minWidth: 250,
                   shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(12)),
@@ -104,10 +104,10 @@ class _LoginState extends State<Login> {
                     //     (route) => false);
                   },
                   child: const TextBuilder(
-                    text: 'Login',
+                    text: 'LOGIN',
                     color: Colors.white,
                     fontSize: 20.0,
-                    fontWeight: FontWeight.normal,
+                    fontWeight: FontWeight.bold
                   ),
                 ),
               ),
@@ -127,7 +127,7 @@ class _LoginState extends State<Login> {
                     },
                     child: const TextBuilder(
                       text: "SKIP",
-                      fontSize: 18,
+                      fontSize: 18,fontWeight: FontWeight.bold,
                     ),
                   )),
               const SizedBox(height: 50.0),
